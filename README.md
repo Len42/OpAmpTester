@@ -2,7 +2,7 @@
 
 <img src="OpAmpTester.jpg" style="float:right">
 
-This is a circuit that tests op amp chips to verify that they are working properly. You might find it useful if you repair old equipment, or if your prototype ciruits don't always work the way you expect. 🔥😕
+This is a circuit that tests op amp chips to verify that they are working properly. You might find it useful if you repair old equipment, or if your prototype circuits don't always work the way you expect. 🔥😕
 
 ### Features
 
@@ -16,12 +16,14 @@ The circuit board has separate sockets for single, dual, and quad op amp chips. 
 
 ### Notes
 
-This circuit should work with just about any DIP op amp chip (single, dual, or quad) that can operate on a 9 volt power supply and that has the usual pinout. I have tried it with several chips including:
+This circuit should work with just about any DIP op amp IC (single, dual, or quad) that can operate on a 9 volt power supply and that has the usual pinout. I have tried it with several chips including:
 - TL071, TL074
 - LM358
 - OPA2134
 
 The PCB layout is provided in KiCad and gerber formats. (TBD) The PCBs that I used can be ordered from OSH Park. The design is [here.](https://oshpark.com/shared_projects/zzz)
+
+I have provided a [parts](OpAmpTester-BOM.csv) list with links to specific parts and vendors, but most of the components are generic resistors, capacitors, and LEDs - it's not necessary to use the exact parts that I listed. I do recommend using good quality IC sockets because cheap ones are not designed for repeated IC insertion and removal.
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
