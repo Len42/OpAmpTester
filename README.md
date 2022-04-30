@@ -6,13 +6,13 @@ This is a circuit that tests op amp chips to verify that they are working proper
 
 ### Features
 
-- Tests single, dual, and quad op amp chips that have the standard DIP pinout
+- Tests single, dual, and quad op amp DIP ICs that have the standard pinout
 - LEDs blinking = op amps working!
 - Powered by a 9-volt battery
 
 ### Usage
 
-The circuit board has separate sockets for single, dual, and quad op amp chips. To test a chip, insert it in the appropriate socket and plug in a 9-volt battery. The LED(s) next to the chip should start blinking. If one or more of the LEDs don't blink, the chip is bad.
+The circuit board has separate sockets for single, dual, and quad op amp ICs. To test a chip, insert it in the appropriate socket and plug in a 9-volt battery. The LED(s) next to the chip should start blinking. If one or more of the LEDs don't blink, the chip is bad.
 
 ### Notes
 
