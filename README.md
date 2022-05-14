@@ -16,20 +16,22 @@ The circuit board has separate sockets for single, dual, and quad op amp ICs. To
 
 ### Notes
 
-This circuit should work with just about any DIP op amp IC (single, dual, or quad) that can operate on a 9 volt power supply and that has the usual pinout. I have tried it with several chips including:
+This tester can test just about any DIP op amp IC (single, dual, or quad) that can operate on a 9 volt power supply and that has the usual pinout. I have tried it with several chips including:
 - TL071, TL074
 - LM358
 - OPA2134
 
-The PCB layout is provided in KiCad and gerber formats. (TBD) The PCBs that I used can be ordered from OSH Park. The design is [here.](https://oshpark.com/shared_projects/zzz)
+The circuit is designed for a 9-volt power supply. Using a higher supply voltage may not work because the LEDs can't take much reverse voltage.
 
-I have provided a [parts](OpAmpTester-BOM.csv) list with links to specific parts and vendors, but most of the components are generic resistors, capacitors, and LEDs - it's not necessary to use the exact parts that I listed. I do recommend using good quality IC sockets because cheap ones are not designed for repeated IC insertion and removal.
+The PCB layout is provided in KiCad and gerber formats. The PCBs that I used can be ordered from OSH Park. The design is [here.](https://oshpark.com/shared_projects/9kqx3vmx)
+
+I made a [parts list](OpAmpTester-BOM.csv) with links to specific parts and vendors, but most of the components are generic resistors, capacitors, and LEDs - it's not necessary to use the exact parts that I listed. I do recommend using good quality IC sockets because cheap ones are not designed for repeated IC insertion and removal.
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
 ### References
 
-This design is based on some other op amp testers that I found:
+This design is based on some other op amp testers:
 
 - [Edison Science Corner](https://www.youtube.com/watch?v=aGswFkS5oHQ)  
 - [NightFire Electronics](https://vakits.com/single-op-amp-tester-kit)  
